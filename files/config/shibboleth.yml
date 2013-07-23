@@ -1,0 +1,17 @@
+## Environments
+
+development:
+  user-mapping: {first_name: "FIRST-NAME", last_name: "LAST-NAME", email: "EMAIL", username: "eppn"}
+  shibb_login_url: "https://Dev_Domain/Shibboleth.sso/Login"
+
+test:
+  user-mapping: {first_name: "FIRST-NAME", last_name: "LAST-NAME", email: "EMAIL", username: "eppn"}
+  shibb_login_url: "https://Dev_Domain/Shibboleth.sso/Login"
+
+uat:
+  user-mapping: {first_name: "FIRST-NAME", last_name: "LAST-NAME", email: "EMAIL", username: "eppn"}
+  shibb_login_url: "https://UAT_Domain/Shibboleth.sso/Login"
+
+production:
+  user-mapping: {first_name: "FIRST-NAME", last_name: "LAST-NAME", email: "EMAIL", username: "eppn"}
+  shibb_login_url: "https://Prod_Domain/Shibboleth.sso/Login"
